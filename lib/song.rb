@@ -63,9 +63,8 @@ class Song
 
   def self.new_from_filename(filename)
    array = filename.split(" - ")
-   artist = Artist.find_or_create_by_name(title[0])
-   genre = Genre.find_or_create_by_name(title[2][0..-5])
-   create(title[1], artist, genre)
+   
+  
  end
 
  def self.create_from_filename(filename)
