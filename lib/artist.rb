@@ -50,6 +50,7 @@ class Artist
 
     def genre
       @genre_array = []
+      @songs.each do |song|
     end
 
 
