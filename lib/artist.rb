@@ -22,7 +22,7 @@ class Artist
   end
 
   def self.create(artist)
-    
+    artist = self.new(artist)
 
   end
 
