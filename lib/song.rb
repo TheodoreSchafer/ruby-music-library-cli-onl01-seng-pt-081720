@@ -70,9 +70,11 @@ class Song
     array = filename.split(" - ")
     song_name = array[1]
 
-    artist = array[0]
+    artist_name = array[0]
     genre = array[2]
     binding.pry
+
+    Artist.find_or_create_by_name(artist_name)
 
 
 
