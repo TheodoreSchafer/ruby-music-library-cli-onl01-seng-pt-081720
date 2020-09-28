@@ -74,7 +74,7 @@ class Song
     genre = array[2]
     binding.pry
 
-    Artist.find_or_create_by_name(artist_name)
+    artist = Artist.find_or_create_by_name(artist_name)
 
 
 
