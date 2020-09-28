@@ -40,16 +40,8 @@ class Artist
     self.songs << song if self.songs.include?(song) == false
   end
 
-    def genres
-      @genre_array = []
-      @songs.each do |song|
-        if @genre_array.include?(song.genre)
-          nil
-        else
-          @genre_array << song.genre
-        end
-      end
-      @genre_array
-    end
+  def genres
+    self.songs.map {|song|song.genre}.uniq
+  end
 
 end
