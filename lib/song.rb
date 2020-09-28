@@ -21,5 +21,8 @@ class Song
     @@all << self
   end
 
+  def self.create
+  end 
+
 
 end
