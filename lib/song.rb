@@ -66,6 +66,8 @@ class Song
     artist = Artist.find_or_create_by_name(artist)
     genre = Genre.find_or_create_by_name(genre)
 
+    puts song_name
+
 
 
 
