@@ -49,7 +49,8 @@ class Artist
     end
 
     def genre
-    end 
+      @genre_array = []
+    end
 
 
 
