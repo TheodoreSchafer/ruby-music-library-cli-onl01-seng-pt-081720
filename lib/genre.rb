@@ -34,15 +34,15 @@ class Genre
   end
 
   def artists
-    @genre_array = []
+    @artist_array = []
     @songs.each do |song|
-      if @genre_array.include?(song.genre)
+      if @artist_array.include?(song.artist)
         nil
       else
-        @genre_array << song.genre
+        @artist_array << song.artist
       end
     end
-    @genre_array
+    @artist_array
   end
 
 
