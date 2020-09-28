@@ -72,10 +72,10 @@ class Song
 
     artist = array[0]
     genre = array[2]
-    binding.pry
 
 
-    
+
+
   end
 
 
