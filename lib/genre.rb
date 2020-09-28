@@ -31,7 +31,19 @@ class Genre
 
   def songs
     @songs
-  end 
+  end
+
+  def artists
+    @genre_array = []
+    @songs.each do |song|
+      if @genre_array.include?(song.genre)
+        nil
+      else
+        @genre_array << song.genre
+      end
+    end
+    @genre_array
+  end
 
 
 end
