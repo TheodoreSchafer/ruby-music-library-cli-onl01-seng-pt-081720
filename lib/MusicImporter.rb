@@ -1,2 +1,5 @@
 class MusicImporter
-end 
+
+  def initialize
+  end 
+end
