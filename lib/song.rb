@@ -75,13 +75,6 @@ class Song
 
 
     self.new(song_name, artist, genre)
-
-
-
-
-
-
-
   end
 
 
