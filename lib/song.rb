@@ -68,9 +68,9 @@ class Song
 
 
     array = filename.split(" - ")
-    song_name = array[0]
+    song_name = array[1]
 
-    artist = array[1]
+    artist = array[0]
     genre = array[2]
 
     self.new(song_name, artist, genre)
