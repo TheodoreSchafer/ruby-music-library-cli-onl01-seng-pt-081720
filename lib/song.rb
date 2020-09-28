@@ -72,6 +72,7 @@ class Song
 
     artist = array[0]
     genre = array[2]
+    binding.pry
 
     self.new(song_name, artist, genre)
 
