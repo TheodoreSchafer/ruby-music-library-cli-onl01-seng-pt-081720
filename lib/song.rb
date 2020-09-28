@@ -71,8 +71,8 @@ class Song
     song_name = array[1]
 
     artist_name = array[0]
-    genre_name = array[2]
-    genre_name.gsub(".mp3","")
+    genre_name = array[2].gsub(".mp3","")
+
 
 
     artist = Artist.find_or_create_by_name(artist_name)
