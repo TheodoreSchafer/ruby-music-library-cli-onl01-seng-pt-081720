@@ -62,6 +62,7 @@ class Song
   end
 
   def self.new_from_filename(filename)
+    artist = Artist.find_or_create_by_name(artist_name)
    self.new(name, artist, genre)
 
 
