@@ -62,7 +62,7 @@ class Song
   end
 
   def self.new_from_filename(filename)
-    song_name =
+    
     artist = Artist.find_or_create_by_name(artist)
     genre = Genre.find_or_create_by_name(genre)
     self.new(song, artist, genre)
