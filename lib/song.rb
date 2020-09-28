@@ -17,5 +17,8 @@ class Song
     @@all.clear
   end
 
+  def save
+  end
+
 
 end
