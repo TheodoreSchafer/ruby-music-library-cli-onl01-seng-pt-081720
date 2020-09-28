@@ -61,8 +61,4 @@ class Artist
       @genre_array
     end
 
-
-
-
-
 end
