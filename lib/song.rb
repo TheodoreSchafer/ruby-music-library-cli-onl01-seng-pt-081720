@@ -75,7 +75,7 @@ class Song
     binding.pry
 
 
-    self.new(song_name, artist, genre)
+    
   end
 
 
